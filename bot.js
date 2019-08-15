@@ -9,7 +9,7 @@ function clean(text) {
 }
 
 const prefix = "+";
-const token = "NjExNTc5ODkzNDczMzQ1NTU3.XVV4aw.8mxyiZ4T33sqWiu9_sVK24HmaoI";
+const token = "NjExNTc5ODkzNDczMzQ1NTU3.XVV8IA.HzoxKmFYXyZYAoQgdoTeA7fJ4bM";
 
 client.on("ready", () => {
   console.log("Vulnix | Logged in! Server count: ${client.guilds.size}");
@@ -86,4 +86,4 @@ if (message.content.toLowerCase().startsWith(prefix + `close`)) {
 
 });
 
-client.login(NjExNTc5ODkzNDczMzQ1NTU3.XVV4aw.8mxyiZ4T33sqWiu9_sVK24HmaoI);
+client.login(token);
